@@ -1,0 +1,90 @@
+@import "tailwindcss";
+
+::-webkit-scrollbar{
+    width: 0;
+}
+
+.nav-bar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: rgba(0, 128, 0, 0.692);
+}
+
+.product-aligns{
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 128, 0, 0.692),rgba(255,0,0,0));
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.product-component{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    border-radius: 4px;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    overflow: auto;
+}
+
+.product-component::-webkit-scrollbar{
+    width: 0;
+    display: hidden;
+}
+
+.product-component:hover{
+    cursor: pointer;
+}
+
+.iMg{
+    height: 12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-blend-mode: multiply; */
+}
+
+.myImg{
+    object-fit: contain;
+    /* background-blend-mode: multiply; */
+}
+
+.content{
+    height:7rem;
+    width: 100%;
+    display:flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+/* Product DEtails */
+
+.parent-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 128, 0, 0.692),rgba(255,0,0,0));
+}
+
+.prod-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    background-color: white;
+}
+
+.product-details{
+    width: 60rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-direction: column;
+}
